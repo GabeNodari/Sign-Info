@@ -66,4 +66,4 @@ let descobrirSigno = () => {
   popUp.innerHTML = `<h2>Seu signo é: ${signo}!</h2>
   <p>${descricao}</p>`;
   popUp.style.display = "flex";
-};
+}
