@@ -1,36 +1,39 @@
 @media (max-width: 480px) {
   body {
-    width: 50%;
-    height: auto;
+    margin-top: 15px;
+    text-align: center;
+    background-size: contain;
   }
 
   .container {
-    width: 50%;
-    height: auto;
+    width: 85%;
+    max-width: 280px;
+    padding: 8px;
+    border-width: 2px;
   }
 
   h1 {
-    font-size: small;
-    padding: 5px;
+    font-size: 0.9em; /
+    padding: 3px;
   }
 
   input, button {
-    width: 95%;
-    max-width: 220px;
-    font-size: small;
+    width: 90%;
+    max-width: 180px;
+    font-size: 0.9em; 
   }
 
   button {
-    height: 35px;
+    height: 32px;
   }
 
   #popUp {
-    margin: 10px;
-    font-size: small;
+    margin: 8px;
+    font-size: 0.85em; 
   }
 
   #popUp p {
-    font-size: small;
+    font-size: 0.85em;
   }
 }
 
