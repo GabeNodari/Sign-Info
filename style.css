@@ -1,7 +1,12 @@
 @media (max-width: 480px) {
   body {
-    margin-top: 30px;
-    text-align: center;
+    width: 50%;
+    height: auto;
+  }
+
+  .container {
+    width: 50%;
+    height: auto;
   }
 
   h1 {
