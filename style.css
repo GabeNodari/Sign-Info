@@ -1,3 +1,42 @@
+@media (max-width: 480px) {
+  body {
+    margin-top: 15px;
+    text-align: center;
+    background-size: cover;  
+  }
+
+  .container {
+    width: 85%;
+    max-width: 280px;
+    padding: 8px;
+    border-width: 2px;
+  }
+
+  h1 {
+    font-size: 0.9em; /
+    padding: 3px;
+  }
+
+  input, button {
+    width: 90%;
+    max-width: 180px;
+    font-size: 0.9em; 
+  }
+
+  button {
+    height: 32px;
+  }
+
+  #popUp {
+    margin: 8px;
+    font-size: 0.85em; 
+  }
+
+  #popUp p {
+    font-size: 0.85em;
+  }
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -7,7 +46,6 @@ body {
   background-image: url(./background.jpg);
   background-repeat: no-repeat; 
   background-size: cover;
-  background-position: center;
   background-color: #ffffff4a;
   background-blend-mode: overlay;
   font-family: "Cinzel", serif;
@@ -26,15 +64,13 @@ body {
 h1 {
   text-align: center;
   margin: 10px;
-  width: 90%;
-  max-width: 750px;  
+  width: 750px;
   padding: 5px;
 }
 
 input {
   height: 25px;
-  width: 80%;
-  max-width: 300px;
+  width: 200px;
   padding: 5px;
   margin: 20px 10px;
   font-size: 1.25em;
@@ -47,8 +83,7 @@ input {
 
 button {
   height: 39px;
-  width: 80%;
-  max-width: 300px;
+  width: 214px;
   padding: 5px;
   margin: 20px 10px;
   font-size: 1.25em;
@@ -67,13 +102,11 @@ button:hover {
 }
 
 #popUp {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
   margin: 15px;
   display: none;
-  max-width: 90%;
-  word-wrap: break-word;
 }
 
 #popUp p {
