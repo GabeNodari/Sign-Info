@@ -5,14 +5,14 @@
   }
 
   h1 {
-    font-size: 1.1em;
+    font-size: small;
     padding: 5px;
   }
 
   input, button {
     width: 95%;
     max-width: 220px;
-    font-size: 1em;
+    font-size: small;
   }
 
   button {
@@ -21,11 +21,11 @@
 
   #popUp {
     margin: 10px;
-    font-size: 1em;
+    font-size: small;
   }
 
   #popUp p {
-    font-size: 1em;
+    font-size: small;
   }
 }
 
