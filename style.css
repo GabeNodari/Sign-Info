@@ -1,3 +1,17 @@
+@media (max-width: 600px) {
+  body {
+    margin-top: 50px; 
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.25em;
+  }
+  input, button {
+    width: 90%;
+    max-width: 250px;
+  }
+}
+
 body {
   display: flex;
   justify-content: center;
