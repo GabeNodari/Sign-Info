@@ -2,7 +2,9 @@
   body {
     margin-top: 15px;
     text-align: center;
-    background-size: contain;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
   }
 
   .container {
