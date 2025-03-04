@@ -65,7 +65,7 @@ let descobrirSigno = () => {
       break;
   }
 
-//Pop-up do resultado
+//Pop-up: resultado
   const POP_UP = document.getElementById("popUp");
   POP_UP.innerHTML = `<h2>Seu signo é: ${signo}!</h2>
   <p>${descricao}</p>`;
