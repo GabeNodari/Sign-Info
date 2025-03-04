@@ -1,4 +1,4 @@
-//Puxa a data do input
+//Função: data -> HTML
 let descobrirSigno = () => {
   const DATA_USER = document.getElementById("dataNascimento").value;
   if (!DATA_USER) {
@@ -13,7 +13,7 @@ let descobrirSigno = () => {
   let signo = "";
   let descricao = "";
 
-//Switch-case dos signos
+//Switch-case: signos
   switch (true) {
     case (MES === 3 && DIA >= 21) || (MES === 4 && DIA <= 19):
       signo = "Áries ♈";
