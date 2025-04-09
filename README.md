@@ -1,4 +1,4 @@
-# Projeto de "Horóscopo" ♈♉♊♋♌♍♎♏♐♑♒♓ 
+# Projeto de "Horóscopo" ♊
 Este é um projeto de "horóscopo", com fins de estudo da stack HTML + CSS + JS.
 
 **Funcionalidades:**
