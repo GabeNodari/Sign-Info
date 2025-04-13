@@ -3,13 +3,15 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 10vh;
   background-image: url(./background.jpg);
   background-repeat: no-repeat; 
   background-size: cover;
   background-color: #ffffff4a;
   background-blend-mode: overlay;
   font-family: "Cinzel", serif;
+  min-height: 100vh;
+  padding: 0 5vw;
 }
 
 .container {
@@ -18,39 +20,45 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #fffffe;
-  border-style:double;
+  border-style: double;
   border-color: #615024;
+  padding: 5vw;
+  width: 90%;
+  max-width: 800px;
 }
 
 h1 {
   text-align: center;
-  margin: 10px;
-  width: 750px;
-  padding: 5px;
+  margin: 1em 0;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 2em;
 }
 
 input {
-  height: 25px;
-  width: 200px;
-  padding: 5px;
-  margin: 20px 10px;
-  font-size: 1.25em;
+  height: 2.5em;
+  width: 80%;
+  max-width: 300px;
+  padding: 0.5em;
+  margin: 1em 0.5em;
+  font-size: 1.1em;
   background-color: #fffffe;
   border-radius: 15px;
-  border-color: rgb(97, 80, 36);
+  border: 2px solid rgb(97, 80, 36);
   cursor: pointer;
   font-family: "Cinzel", serif;
 }
 
 button {
-  height: 39px;
-  width: 214px;
-  padding: 5px;
-  margin: 20px 10px;
-  font-size: 1.25em;
+  height: 2.7em;
+  width: 80%;
+  max-width: 300px;
+  padding: 0.5em;
+  margin: 1em 0.5em;
+  font-size: 1.1em;
   background-color: #fffffe;
   border-radius: 15px;
-  border-color: #615024;
+  border: 2px solid #615024;
   cursor: pointer;
   transition: 0.2s ease-in-out;
   font-family: "Cinzel", serif;
@@ -63,15 +71,40 @@ button:hover {
 }
 
 #popUp {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
-  margin: 15px;
-  display: none;
+  margin: 1em;
 }
 
 #popUp p {
-  margin: 5px;
-  font-size: 1.15em;
+  margin: 0.5em;
+  font-size: 1em;
   font-weight: 500;
+}
+
+/* TESTE RESPONSIVIDADE */
+@media screen and (max-width: 480px) {
+  body {
+    margin-top: 5vh;
+    padding: 0 2vw;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  input, button {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .container {
+    padding: 4vw;
+  }
+
+  #popUp p {
+    font-size: 0.95em;
+  }
 }
