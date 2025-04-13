@@ -3,111 +3,89 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
-  background-image: url(./background.jpg);
-  background-repeat: no-repeat; 
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+      url(./background.jpg) no-repeat center center fixed;
   background-size: cover;
-  background-color: #ffffff4a;
-  background-blend-mode: overlay;
   font-family: "Cinzel", serif;
 }
 
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   background-color: #fffffe;
-  border-style: solid;
+  border: 2px solid #615024e5;
   border-radius: 15px;
-  border-color: #615024;
+  padding: 3vw;
+  width: 90%;
+  max-width: 500px; /* Not too big */
+  box-sizing: border-box;
 }
 
 h1 {
   text-align: center;
-  margin: 10px;
-  width: 750px;
-  padding: 5px;
+  margin: 20px 0;
+  font-size: 1.8em;
+  width: 100%;
 }
 
-input {
-  height: 25px;
-  width: 200px;
-  padding: 5px;
-  margin: 20px 10px;
-  font-size: 1.25em;
-  background-color: #fffffe;
+input,
+button {
+  width: 100%;
+  max-width: 320px;
+  height: 45px;
+  margin: 10px 0;
+  padding: 0 10px;
+  font-size: 1.1em;
+  border: 2px solid #615024e5;
   border-radius: 15px;
-  border-color: rgb(97, 80, 36);
-  cursor: pointer;
+  background-color: #fffffe;
   font-family: "Cinzel", serif;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 button {
-  height: 39px;
-  width: 214px;
-  padding: 5px;
-  margin: 20px 10px;
-  font-size: 1.25em;
-  background-color: #fffffe;
-  border-radius: 15px;
-  border-color: #615024;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
-  font-family: "Cinzel", serif;
   font-weight: 600;
+  transition: transform 0.2s ease-in-out;
 }
 
 button:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   background-color: #ffdf86;
 }
 
 #popUp {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
-  margin: 15px;
-  display: none;
+  margin-top: 20px;
 }
 
 #popUp p {
-  margin: 5px;
-  font-size: 1.15em;
+  font-size: 1.1em;
   font-weight: 500;
+  margin: 5px;
 }
 
-/* TESTE RESPONSIVIDADE */
+/* RESPONSIVIDADE */
 @media screen and (max-width: 480px) {
-  * {
-    overflow: hidden;  
-  }
-  
-  body {
-    margin-top: 5vh;
-    padding: 0 2vw;
-  }
-
   h1 {
-    font-size: 1.5em;
-    width: 100%;
+    font-size: 1.4em;
   }
 
-  input, button {
-    display: flex;
-    /* flex-direction: column; */
-    align-item: center;
-    justify-content: center;
-    justify-text: center;
-    width: 100%;
+  input,
+  button {
+    height: 42px;
     font-size: 1em;
   }
+}
 
-  .container {
-    padding: 4vw;
-  }
-
-  #popUp p {
-    font-size: 0.95em;
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  h1 {
+    font-size: 1.6em;
   }
 }
