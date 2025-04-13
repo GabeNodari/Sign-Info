@@ -63,6 +63,7 @@ button {
   transition: 0.2s ease-in-out;
   font-family: "Cinzel", serif;
   font-weight: 600;
+  justify-text: center;
 }
 
 button:hover {
@@ -85,6 +86,10 @@ button:hover {
 
 /* TESTE RESPONSIVIDADE */
 @media screen and (max-width: 480px) {
+  * {
+    overflow: hidden;  
+  }
+  
   body {
     margin-top: 5vh;
     padding: 0 2vw;
@@ -97,9 +102,10 @@ button:hover {
 
   input, button {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-item: center;
     justify-content: center;
+    justify-text: center;
     width: 100%;
     font-size: 1em;
   }
