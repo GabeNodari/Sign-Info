@@ -1,5 +1,5 @@
 # Projeto de "Horóscopo" ♊
-Este é um projeto de "horóscopo", com fins de estudo da stack HTML + CSS + JS.
+Este é um projeto de "horóscopo", com fins de estudo da stack HTML, CSS e JavaScript.
 
 **Funcionalidades:**
 
