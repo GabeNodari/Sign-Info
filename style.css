@@ -1,9 +1,13 @@
+* {
+  overflow: hidden;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 10vh;
+  margin-top: 5vh;
   background-image: url(./background.jpg);
   background-repeat: no-repeat; 
   background-size: cover;
@@ -11,7 +15,6 @@ body {
   background-blend-mode: overlay;
   font-family: "Cinzel", serif;
   min-height: 100vh;
-  padding: 0 5vw;
 }
 
 .container {
