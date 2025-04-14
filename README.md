@@ -22,5 +22,4 @@ Este é um projeto de "horóscopo", com fins de estudo da stack HTML, CSS e Java
 
 **Próximos passos:**
 
-* Adicionar responsividade para diferentes resoluções de tela com @media (Media Query), -webkit-transition e -moz-transition. 
-* Aperfeiçoar UX aprimorando o layout, fonte e funcionalidades da página.
+* Aperfeiçoar o UX, aprimorando o layout, fontes e funcionalidades da página.
